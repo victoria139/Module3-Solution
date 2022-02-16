@@ -64,3 +64,19 @@
     border: 0px;
     list-style-type: none;
 }  
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: lightblue;
+}
