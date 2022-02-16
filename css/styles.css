@@ -67,16 +67,22 @@
 
 a:link {
   color: goldenrod;
+  text-decoration: underline;
 }
 
 a:visited {
   color: limegreen;
+  text-decoration: underline;
 }
 
 a:hover {
   color: goldenrod;
+  text-decoration: underline;
 }
 
 a:active {
   color: limegreen;
+  text-decoration: underline;
 }
+
+
