@@ -77,7 +77,7 @@
   text-decoration: underline;
 }
 
- #href a hover {
+ #href a:hover {
   color: limegreen;
   text-decoration: underline;
 }
