@@ -37,7 +37,7 @@
 
 #text {       
     margin: 10px;
-    background-color: darkblue;
+    background-color: darkgreen;
     font-family: serif;
     color: white;   
     position: relative;
@@ -52,7 +52,7 @@
     color: white;
     font-family: serif;
     font-weight: 100;
-    background-color: darkblue;
+    background-color: darkolivegreen;
 }
 
 #nav-list a:hover {
