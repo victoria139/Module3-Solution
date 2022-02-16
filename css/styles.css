@@ -88,4 +88,7 @@
   text-decoration: underline;
   }
 
-
+.nav--hidden {
+  transformY(calc(-1*var(--nav-height)));
+  box-shadow:none;
+}
