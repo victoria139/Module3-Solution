@@ -3,7 +3,7 @@
 }
 
 #header-nav {
-    background-color: skyblue;
+    background-color: #150505;
     border-radius: 0;
     border: 0;    
     border: solid black 3px;
@@ -19,11 +19,11 @@
   }
 
 .navbar-brand h1 {    
-    font-family: serif;
+    font-family: unset;
     font-size: 1.5em;
-    color: black;   
+    color: white;   
     margin-top: 0;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-bottom: 0;
 }
 
