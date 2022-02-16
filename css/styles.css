@@ -38,7 +38,8 @@
 #text {       
     margin: 10px;
     background-color: #d8dff5;
-    font-family: serif;   
+    font-family: serif;
+    color: white;   
     position: relative;
 }
 
