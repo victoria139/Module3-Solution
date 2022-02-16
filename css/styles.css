@@ -68,23 +68,23 @@
 }  
 
 #href a:link {
-  color: limegreen;
-  text-decoration: underline; color:limegreen
+  color: blue;
+  text-decoration: underline; 
 }
 
 #href a:vistited {
-  color: limegreen;
-  text-decoration: underline; color:limegreen
+  color: blue;
+  text-decoration: underline; 
 }
 
  #href a:hover {
-  color: limegreen;
-  text-decoration: underline; color:limegreen
+  color: blue;
+  text-decoration: underline;
 }
 
 #href a:active {
-  color: limegreen;
-  text-decoration: underline; color:limegreen
-}
+  color: blue;
+  text-decoration: underline;
+  }
 
 
