@@ -37,7 +37,7 @@
 
 #text {       
     margin: 10px;
-    background-color: darkgreen;
+    background-color: black;
     font-family: serif;
     color: white;   
     position: relative;
@@ -52,11 +52,11 @@
     color: white;
     font-family: serif;
     font-weight: 100;
-    background-color: darkred;
+    background-color: forestgreen;
 }
 
 #nav-list a:hover {
-    background-color: lightgoldenrodyellow; 
+    background-color: darkred; 
 }
 
 .navbar-default .navbar-collapse {
