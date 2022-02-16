@@ -37,7 +37,7 @@
 
 #text {       
     margin: 10px;
-    background-color: black;
+    background-color: #292959
     font-family: serif;
     color: white;   
     position: relative;
@@ -54,11 +54,11 @@
     color: white;
     font-family: serif;
     font-weight: 100;
-    background-color: #d8dff5
+    background-color: #292959
 }
 
 #nav-list a:hover {
-    background-color: navy blue;   
+    background-color: navy;   
 }
 
 .navbar-default .navbar-collapse {
