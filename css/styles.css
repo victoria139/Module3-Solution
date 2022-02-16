@@ -52,11 +52,11 @@
     color: white;
     font-family: serif;
     font-weight: 100;
-    background-color: forestgreen;
+    background-color: darkolivegreen;
 }
 
 #nav-list a:hover {
-    background-color: darkred; 
+    background-color: forestgreen; 
 }
 
 .navbar-default .navbar-collapse {
@@ -70,7 +70,7 @@ a:link {
 }
 
 a:visited {
-  color: forestgreen;
+  color: limegreen;
 }
 
 a:hover {
@@ -78,5 +78,5 @@ a:hover {
 }
 
 a:active {
-  color: forestgreen;
+  color: limegreen;
 }
