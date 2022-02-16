@@ -58,7 +58,7 @@
 }
 
 #nav-list a:hover {
-    background-color: navy;   
+    background-color: navy; white;  
 }
 
 .navbar-default .navbar-collapse {
