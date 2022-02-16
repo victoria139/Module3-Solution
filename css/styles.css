@@ -55,6 +55,7 @@
     font-family: serif;
     font-weight: 100;
     background-color: darkolivegreen;
+    border:black 2px;
 }
 
 #nav-list a:hover {
