@@ -52,11 +52,11 @@
     color: white;
     font-family: serif;
     font-weight: 100;
-    background-color: darkolivegreen;
+    background-color: darkred;
 }
 
 #nav-list a:hover {
-    background-color: lightblue; 
+    background-color: lightgoldenrodyellow; 
 }
 
 .navbar-default .navbar-collapse {
