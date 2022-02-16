@@ -66,17 +66,17 @@
 }  
 
 a:link {
-  color: white;
+  color: goldenrod;
 }
 
 a:visited {
-  color: lightblue;
+  color: forestgreen;
 }
 
 a:hover {
-  color: white;
+  color: goldenrod;
 }
 
 a:active {
-  color: lightblue;
+  color: forestgreen;
 }
