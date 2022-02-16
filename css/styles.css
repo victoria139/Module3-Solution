@@ -3,7 +3,7 @@
 }
 
 #header-nav {
-    background-color: #150505;
+    background-color: solid black;
     border-radius: 0;
     border: 0;    
     border: solid black 3px;
@@ -37,7 +37,7 @@
 
 #text {       
     margin: 10px;
-    background-color: #d8dff5;
+    background-color: #d8dff5
     font-family: serif;
     color: white;   
     position: relative;
@@ -58,7 +58,7 @@
 }
 
 #nav-list a:hover {
-    background-color: royalblue;   
+    background-color: navy blue;   
 }
 
 .navbar-default .navbar-collapse {
