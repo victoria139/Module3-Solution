@@ -57,8 +57,9 @@ div.section-head{
     border-right: 0px;
     float: center;
     text-align: center;
+    position: center;
     text-decoration-color: white;
-    font-size: 20px;
+    font-size: 25px;
     width: 150px;
 }
 div.section-body{
