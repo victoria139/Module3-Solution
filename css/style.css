@@ -60,7 +60,7 @@ div.section-head{
     position: center;
     text-decoration-color: white;
     font-size: 25px;
-    width: 200px;
+    width: 350px;align-content: center;
 }
 div.section-body{
     clear: right;
@@ -154,9 +154,3 @@ div.section-body{
   color: blue;
   text-decoration: underline;
   }
-
-.section-head<.s1;.s2;.s3; {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 25px;
