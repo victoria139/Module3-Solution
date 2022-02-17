@@ -52,7 +52,7 @@ div.section-head{
     border: solid black; 2px;
     border-top: 0px;
     border-right: 0px;
-    float: right;
+    float: center;
     text-align: center;
     text-decoration-color: white;
     width: 150px;
@@ -97,7 +97,7 @@ div.section-body{
 }
 @media (min-width: 992px){
     .col-lg-4{
-        float: center;
+        float: left;
         width: 33.33%;
     }
 }
