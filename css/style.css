@@ -82,7 +82,7 @@ div.section-body{
     text color: white;
 }
 #collapsable-nav{
-    background-color: black;
+    background-color: white;
     text-align: left;
     border: solid 2px black;
     font-size: 1.5em;
@@ -91,7 +91,7 @@ div.section-body{
     width: 100%;
     text-align: center;
     border-bottom: solid 2px black;
-    text-decoration-color: forestgreen;
+    text-decoration-color: darkblue;
     background-color: white;
 }
 .navbar-toggler{
