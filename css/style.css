@@ -33,7 +33,7 @@ div.section{
     color: white;
 }
 div.section-head{
-    border: #000000 solid 2px;
+    border: solid black; 2px;
     border-top: 0px;
     border-right: 0px;
     float: right;
@@ -57,6 +57,7 @@ div.section-body{
 }
 .navbar-brand{
     padding-left: 5%;
+    text color: white;
 }
 #collapsable-nav{
     background-color: white;
@@ -83,7 +84,7 @@ div.section-body{
 }
 @media (min-width: 768px) and (max-width: 991px){
     .col-md-6 {
-        float: left;
+        float: center;
         width: 50%;
       }
     .col-md-12 {
