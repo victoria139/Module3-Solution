@@ -29,8 +29,8 @@ h2{
 }
 .head{
     margin-top: 20px;
-    background-color: darkred;
-    text-decoration-colour: white;
+    background-color: white;
+    text-colour: solid black;
     border-radius: 0;
     border: 0;    
     border: black 3px;
@@ -154,7 +154,7 @@ div.section-body{
 
 .section-head<h2 {
     font-size:20px ;
-    text-decoration-color: black;
+    text-decoration-color: white;
     position: relative;
     align: center;
     }
