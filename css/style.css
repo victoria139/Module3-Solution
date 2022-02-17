@@ -10,6 +10,7 @@ body{
 h1{
     font-weight: bold;
     text-decoration-color: white;
+    background-color: darkred;
     text-align: center;
     font-size: 175%;
 }
