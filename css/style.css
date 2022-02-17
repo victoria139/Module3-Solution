@@ -18,9 +18,9 @@ h1{
 
 h2{
     font-weight: bold;
-    text-align: center-text; 
+    text-align: center; 
     position: relative;
-    text-decoration-color: black;
+    text-color: solid black;
     background-color: white;
     font-size: 2em;
     font-family: ui-sans-serif, sans-serif;
@@ -29,7 +29,7 @@ h2{
 .head{
     margin-top: 20px;
     background-color: darkred;
-    text-decoration-colour: white;
+    text-decoration-colour: Black;
     border-radius: 0;
     border: 0;    
     border: black 3px;
