@@ -45,6 +45,7 @@ div.section{
     background-color: darkred;
     align-content: center;
     position: relative;
+    font-size: 25px;
 }
 div.section-head{
     border: solid black; 2px;
