@@ -71,14 +71,10 @@
     list-style-type: none;
 }  
 
-.nav {padding: 20px null; position: fixed, null 0px 0px 0px
-  transition: transform .5s $ease-in-out-quint
-  }  
-
-.nav.hidden {transform: translateY100%
+.nav.hidden {
+    transform: translateY(calc(-1 x var(--nav-height)));
+    box-shadow: none;
 }  
-
-
 
 
 /***Link***/
