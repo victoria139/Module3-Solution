@@ -73,6 +73,7 @@ div.section-body{
     padding: 0px;
     font-family: sans-serif;
     text-decoration-color: white;
+    align-content: center;
 }
 .navbar a{
     text-decoration: none;
