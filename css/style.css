@@ -16,9 +16,11 @@ h1{
 
 h2{
     font-weight: bold;
-    text-align: center; position: center;
+    text-align: center; 
+    position: relative;
     text-decoration-color: black;
     font-size: 2em;
+    font-family: ui-sans-serif, sans-serif;
     margin-top: 10px;
 }
 .head{
@@ -113,18 +115,21 @@ div.section-body{
 .s1 {
     background-color: darkred;
     align-content: center;
+    position: relative;
     text-decoration-color: white;
 }
 
 .s2 {
     background-color: darkred;
     align-content: center;
+    position: relative;
     text-decoration-color: white;
 }
 
 .s3 {
     background-color: darkred;
     align-content: center;
+    position: relative;
     text-decoration-color: white;
 }
 
