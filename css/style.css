@@ -74,14 +74,14 @@ div.section-body{
 }
 .navbar a{
     text-decoration: none;
-    text-color: forestgreen;
+    text-color: white;
 }
 .navbar-brand{
     padding-left: 5%;
     text color: white;
 }
 #collapsable-nav{
-    background-color: forestgreen;
+    background-color: white;
     text-align: left;
     border: solid 2px black;
     font-size: 1.5em;
@@ -90,6 +90,8 @@ div.section-body{
     width: 100%;
     text-align: left;
     border-bottom: solid 2px black;
+    text-decoration-color: green;
+    background-color: white;
 }
 .navbar-toggler{
     margin: 15px;
