@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/****Header****/
 #header-nav {
     background-color: black;
     text-decoration: none;
@@ -11,6 +12,7 @@
     margin-bottom: 0;
 }
 
+/***Brand Name***/
 .navbar-brand {       
     padding-left: 0;  
 }
@@ -45,6 +47,7 @@
     position: relative;
 }
 
+/***Navigation List***/
 #nav-list {
     margin-top: 10px;
 }
@@ -68,6 +71,7 @@
     list-style-type: none;
 }  
 
+/***Link***/
 #href a:link {
   color: blue;
   text-decoration: underline; 
