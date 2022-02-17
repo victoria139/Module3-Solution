@@ -78,17 +78,17 @@ div.section-body{
 }
 @media (min-width: 992px){
     .col-lg-4{
-        float: center;
+        float: left;
         width: 33.33%;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .col-md-6 {
-        float: center;
+        float: left;
         width: 50%;
       }
     .col-md-12 {
-        float: center;
+        float: left;
         width: 100%;
         margin-left: -20px;
         
@@ -99,10 +99,30 @@ div.section-body{
 }
 @media (min-width: 0px) and (max-width: 767px) {
     .col-sm-12 {
-        float: center;
+        float: left;
       width: 100%;
     }
     .visible-xs{
         visibility: visible;
     }
 }
+
+.s1 {
+    background-color: darkred;
+    align-content: center;
+    text-decoration-color: white;
+}
+
+.s2 {
+    background-color: darkred;
+    align-content: center;
+    text-decoration-color: white;
+}
+
+.s3 {
+    background-color: darkred;
+    align-content: center;
+    text-decoration-color: white;
+}
+
+
