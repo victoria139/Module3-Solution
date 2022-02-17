@@ -5,8 +5,8 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: ui-sans-serif, sans-serif;
-    color:white;
-    background-color: darkblue;
+    color:black;
+    background-color: white;
     font-size: 20px;
 }
 h1{
@@ -38,7 +38,7 @@ h2{
     margin-bottom: 0;
 }
 div.section{
-    background-color: darkblue;
+    background-color: lightblue;
     text-decoration-color: white;
     border: #000000 solid 2px;
     width: 90%;
@@ -47,7 +47,7 @@ div.section{
 .section-head h2{
     font-weight: normal;
     text-decloration-color: black;
-    background-color: darkblue;
+    background-color: lightblue;
     align-content: center;
     position: relative;
     font-size: 20px;
@@ -68,7 +68,7 @@ div.section-body{
     text-decoration-color: white;
 }
 .navbar{
-    background-color: darkblue;
+    background-color: lightblue;
     margin: 0px;
     padding: 0px;
     font-family: cursive;
@@ -92,7 +92,7 @@ div.section-body{
     width: 100%;
     text-align: center;
     border-bottom: solid 2px black;
-    text-decoration-color: darkblue;
+    text-decoration-color: lightblue;
     background-color: white;
 }
 .navbar-toggler{
