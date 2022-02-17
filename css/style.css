@@ -4,7 +4,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: ui-sans-serif, sans-serif;
+    color:white
 }
 h1{
     font-weight: bold;
@@ -22,13 +23,14 @@ h2{
     margin-top: 20px;
 }
 div.section{
-    background-color: gray;
+    background-color: darkred;
     border: #000000 solid 2px;
     width: 90%;
     margin: 5%;
 }
 .section-head h2{
     font-weight: normal;
+    color: white;
 }
 div.section-head{
     border: #000000 solid 2px;
@@ -44,14 +46,14 @@ div.section-body{
     font-size: 20px;
 }
 .navbar{
-    background-color: gray;
+    background-color: darkred;
     margin: 0px;
     padding: 0px;
     font-family: cursive;
 }
 .navbar a{
     text-decoration: none;
-    color: #000000;
+    text-color: white;
 }
 .navbar-brand{
     padding-left: 5%;
