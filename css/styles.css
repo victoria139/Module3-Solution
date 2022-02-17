@@ -1,116 +1,105 @@
-body {
-    font-size: 16px;
-    color: #fff;
-    background-color: white;
-    font-family: 'Comic Sans MS', cursive , sans-serif;
+* {
+    box-sizing: border-box;
 }
-
-
-/* HEADR  */
-
-#header-nav {
-    background-color: blueviolet;
-    border-radius: 0;
-    border: 0;
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
 }
-
-.navbar-brand {
-    padding-right: 1px;
-}
-
-
-/* NAV-HEADER */
-
-.navbar-brand h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    font-size: 1.5em;
-    text-transform: uppercase;
+h1{
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
+    text-align: center;
+    font-size: 175%;
 }
 
-.navbar-brand a:hover,
-.navbar-brand a:focus {
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.head{
+    margin-top: 20px;
+}
+div.section{
+    background-color: gray;
+    border: #000000 solid 2px;
+    width: 90%;
+    margin: 5%;
+}
+.section-head h2{
+    font-weight: normal;
+}
+div.section-head{
+    border: #000000 solid 2px;
+    border-top: 0px;
+    border-right: 0px;
+    float: right;
+    text-align: center;
+    width: 150px;
+}
+div.section-body{
+    clear: right;
+    padding: 10px;
+    font-size: 20px;
+}
+.navbar{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.navbar a{
     text-decoration: none;
+    color: #000000;
 }
-
-.navbar-nav {
-    margin-top: 0;
-    margin-bottom: 0;
+.navbar-brand{
+    padding-left: 5%;
 }
-
-
-
-#nav-list a {
+#collapsable-nav{
+    background-color: white;
     text-align: center;
-    color: black;
-    background-color: whitesmoke;
+    border: solid 2px black;
+    font-size: 1.5em;
 }
-
-#nav-list a:hover {
-    background: lightblue;
-    border: black 2px;
-}
-
-#line-hr {
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-
-#nav-list a span {
-    font-size: 1.8em;
-}
-
-
-/**** Main *** */
-
-h2 {
-    text-align: center;
-    font-size: 3em;
-    margin-bottom: 1em;
-    color: black;
-}
-
-#chicken-tile,
-#beef-tile,
-#sushi-tile {
-    height: auto;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #3F0C1F;
-    overflow: hidden;
-    padding: 1em;
-    background-color: gray;
-    color: black;
-}
-
-#chicken-tile:hover,
-#beef-tile:hover,
-#sushi-tile:hover {
-    box-shadow: 0 1px 5px 1px rgb(106, 185, 255);
-}
-
-#chicken-tile span,
-#beef-tile span,
-#sushi-tile span {
-    position: absolute;
-    top: 0;
-    right: 0;
+.collapse li{
     width: 100%;
     text-align: center;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    background-color: gray;
-    color: black;
-    opacity: .8;
+    border-bottom: solid 2px black;
 }
-
-#chicken-tile p,
-#beef-tile p,
-#sushi-tile p {
-    padding-top: 2em;
+.navbar-toggler{
+    margin: 15px;
+}
+.visible-xs{
+    visibility: hidden;
+}
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6 {
+        float: left;
+        width: 50%;
+      }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: -20px;
+        
+    }
+    .col-md-12>div.section{
+        width: 95%;
+    }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    .visible-xs{
+        visibility: visible;
+    }
 }
