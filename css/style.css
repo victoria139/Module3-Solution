@@ -25,8 +25,8 @@ h2{
 }
 .head{
     margin-top: 20px;
-    background-color: black;
-    text-decoration: none;
+    background-color: white;
+    text-decoration-colour: solid black;
     border-radius: 0;
     border: 0;    
     border: black 3px;
