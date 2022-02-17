@@ -71,6 +71,9 @@
     list-style-type: none;
 }  
 
+.nav {transition: transform 0.2s;
+}
+
 .nav.hidden {
     transform: translateY(calc(-1 ⋆ var(--nav-height)));
     box-shadow: none;
