@@ -6,7 +6,7 @@ body{
     padding: 0px;
     font-family: ui-sans-serif, sans-serif;
     color:white;
-    font-size: 30px;
+    font-size: 20px;
 }
 h1{
     font-weight: bold;
@@ -49,7 +49,7 @@ div.section{
     background-color: darkblue;
     align-content: center;
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
 }
 div.section-head{
     border-top: 0px;
@@ -57,7 +57,7 @@ div.section-head{
     float: center;
     text-align: center;
     text-decoration-color: white;
-    font-size: 30px;
+    font-size: 20px;
     width: 150px;
 }
 div.section-body{
