@@ -16,9 +16,10 @@ h1{
 
 h2{
     font-weight: bold;
-    text-align: center; 
+    text-align: center-text; 
     position: relative;
     text-decoration-color: black;
+    background-color: white;
     font-size: 2em;
     font-family: ui-sans-serif, sans-serif;
     margin-top: 10px;
