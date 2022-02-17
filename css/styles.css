@@ -72,7 +72,7 @@
 }  
 
 .nav.hidden {
-    transform: translateY(calc(-1 x var(--nav-height)));
+    transform: translateY(calc(-1 ⋆ var(--nav-height)));
     box-shadow: none;
 }  
 
