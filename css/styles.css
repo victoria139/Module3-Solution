@@ -1,58 +1,116 @@
-.navbar{
-    color: #000000;
-    background-color: #999999;
-    border: 2px solid #000000;
-
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Comic Sans MS', cursive , sans-serif;
 }
-div >.navbar-brand {
-    color: #000000;
-    font-size: 30px;
-    font-weight: 800;
+
+
+/* HEADR  */
+
+#header-nav {
+    background-color: blueviolet;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-right: 1px;
+}
+
+
+/* NAV-HEADER */
+
+.navbar-brand h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
     text-decoration: none;
 }
-/*menu bar hide start*/
-@media only screen and (min-width: 768px) {
-    .navbar-nav{
-        display: none;
-    }
-}
-/*menu bar hide end*/
-ul li{
-    font-size: 20px;
-    font-weight: 600;   
-}
-li > a{
-    color: #000000!important;
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.row{
-    margin-top: 20px;
-    justify-content: center;
-}
-h1{
+
+
+#nav-list a {
     text-align: center;
+    color: black;
+    background-color: whitesmoke;
 }
-#column1{
-    background-color: grey;
-    margin-bottom: 20px;
 
+#nav-list a:hover {
+    background: lightblue;
+    border: black 2px;
 }
-#column2{
-    background-color: grey;
-    margin-bottom: 20px;
+
+#line-hr {
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
-#column3{
-    background-color: grey;
-    margin-bottom: 20px;
+
+#nav-list a span {
+    font-size: 1.8em;
 }
+
+
+/**** Main *** */
+
 h2 {
     text-align: center;
-    padding-top: 10px;
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: black;
 }
-p{
-    padding: 15px;
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 1em;
+    background-color: gray;
+    color: black;
 }
-p>a{
-    color: #ffffff;
-    text-decoration-line: underline;
+
+#chicken-tile:hover,
+#beef-tile:hover,
+#sushi-tile:hover {
+    box-shadow: 0 1px 5px 1px rgb(106, 185, 255);
+}
+
+#chicken-tile span,
+#beef-tile span,
+#sushi-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: gray;
+    color: black;
+    opacity: .8;
+}
+
+#chicken-tile p,
+#beef-tile p,
+#sushi-tile p {
+    padding-top: 2em;
 }
