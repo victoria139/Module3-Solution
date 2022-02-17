@@ -50,12 +50,12 @@ div.section{
     font-size: 25px;
 }
 div.section-head{
-    border: solid black; 2px;
     border-top: 0px;
     border-right: 0px;
     float: center;
     text-align: center;
     text-decoration-color: white;
+    font-size: 25px;
     width: 150px;
 }
 div.section-body{
