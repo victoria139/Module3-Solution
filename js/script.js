@@ -1,11 +1,10 @@
 <script>
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar").style.top = "none";
-        } else {
-          document.getElementById("navbar").style.top = "initial";
-        }
-        prevScrollpos = currentScrollPos;
-      }
+var prev = 0;
+var $window = $(window);
+var nav = $('.nav'); 
+$window.on('scroll', function(){
+  var scrollTop = $window.scrollTop();
+  nav.toggleClass('hidden', scrollTop > prev);
+  prev = scrollTop;
+});
     </script>
