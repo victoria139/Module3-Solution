@@ -9,6 +9,7 @@
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Roboto+Serif' rel='stylesheet'>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -129,6 +130,20 @@
         <a class="visible-xs" href="#top">Back To Top</a>
       </p>
     </div>
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+
 </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
