@@ -28,8 +28,8 @@ h2{
 }
 .head{
     margin-top: 20px;
-    background-color: white;
-    text-decoration-colour: solid black;
+    background-color: darkred;
+    text-decoration-colour: white;
     border-radius: 0;
     border: 0;    
     border: black 3px;
@@ -81,16 +81,16 @@ div.section-body{
     text color: white;
 }
 #collapsable-nav{
-    background-color: white;
+    background-color: black;
     text-align: left;
     border: solid 2px black;
     font-size: 1.5em;
 }
 .collapse li{
     width: 100%;
-    text-align: left;
+    text-align: center;
     border-bottom: solid 2px black;
-    text-decoration-color: green;
+    text-decoration-color: forestgreen;
     background-color: white;
 }
 .navbar-toggler{
