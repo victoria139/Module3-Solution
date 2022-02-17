@@ -61,6 +61,7 @@ div.section-head{
     text-decoration-color: white;
     font-size: 25px;
     width: auto px; align-text: center;
+    font-weight: bold;
 }
 div.section-body{
     clear: right;
