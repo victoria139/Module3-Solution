@@ -130,6 +130,26 @@
         <a class="visible-xs" href="#top">Back To Top</a>
       </p>
     </div>
+    <div>
+    </div>
+    <script>
+      //Enable hidden nav bar
+      {const nav = document.querySelector(".nav");
+      let last ScrollY = window.scrollY;
+
+      window.addEventListener("scroll",() =>{
+        if (lastScrollY<window,scrollY) {
+          nav.classList.add("nav--hidden");
+        } else {
+          nav.classList.remove("nav--hidden");
+        }
+
+        lastScrollY=window.scrollY;
+      });
+    }
+
+    </script>
+
 </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
