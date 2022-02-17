@@ -147,3 +147,10 @@ div.section-body{
   color: blue;
   text-decoration: underline;
   }
+
+.section-head<h2 {
+    font-size:20px ;
+    text-decoration-color: black;
+    position: relative;
+    align: center;
+    }
