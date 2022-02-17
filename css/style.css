@@ -60,7 +60,7 @@ div.section-head{
     position: center;
     text-decoration-color: white;
     font-size: 25px;
-    width: 350px;align-content: center;
+    width: auto px; align-text: center;
 }
 div.section-body{
     clear: right;
