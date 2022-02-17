@@ -73,7 +73,7 @@
 
 /***Hide Navigation Bar on Scoll***/
 
-.nav {
+#header-nav,#nav-list,#navbar-collapse,#navbar-brand,#navbar-default {
     width: 100%;
     height: var(--nav-height);
     position: fixed;
