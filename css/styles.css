@@ -71,14 +71,18 @@
     list-style-type: none;
 }  
 
-#header-nav {transition: transform 0.2s;
-}
+/***Hide Navigation Bar on Scoll***/
 
-#header-nav hidden {
+.nav {
+    width: 100%;
+    height: var(--nav-height);
+    position: fixed;
+    top: auto;
+    left: auto;
+    transition: transform 0.2s;
     transform: translateY(calc(-1 ⋆ var(--nav-height)));
     box-shadow: none;
 }  
-
 
 /***Link***/
 #href a:link {
