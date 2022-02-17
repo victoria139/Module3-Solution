@@ -41,7 +41,10 @@ div.section{
 }
 .section-head h2{
     font-weight: normal;
-    color: black;
+    text-decloration-color: black;
+    background-color: darkred;
+    align-content: center;
+    position: relative;
 }
 div.section-head{
     border: solid black; 2px;
@@ -119,13 +122,6 @@ div.section-body{
     .visible-xs{
         visibility: visible;
     }
-}
-
-.section-head{
-    background-color: darkred;
-    align-content: center;
-    position: relative;
-    text-decoration-color: white;
 }
 
 /***Link***/
