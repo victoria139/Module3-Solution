@@ -1,63 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>module 3 - soluation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+
+    <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-  <header id="top_heading">
-    <nav class="navbar navbar-light navbar-expand-md">
-      <div class="container">
-        <a href="index.html" class="navbar-brand">Food, LLC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coursera-nav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="coursera-nav" class="collapse navbar-collapse text-center">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="#column1" class="nav-link">CHICKEN</a></li>
-            <li class="nav-item"><a href="#column2" class="nav-link"> BEEF</a></li>
-            <li class="nav-item"><a href="#column3" class="nav-link">SUSHI</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>Food,LLC</h1>
+                        </a>
+                    </div>
 
-<div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4">
-          <div id="heading"><h1>Our Menu</h1></div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <!-- .collapse .navbar-collapse -->
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
+                        <li>
+                            <a href="#chicken-categories">
+                                <br class="hidden-xs"> Chicken</a>
+
+                        </li>
+                        <li id="line-hr">
+                            <a href="#beef-category">
+                                <br class="hidden-xs"> Beef</a>
+                        </li>
+                        <li>
+                            <a href="#sushi-category">
+                                <br class="hidden-xs"> Sushi</a>
+                        </li>
+
+                    </ul>
+                    <!-- #nav-list -->
+                </div>
+                <!-- .collapse .navbar-collapse -->
+
+            </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- MAIN MENU  -->
+    <div id="main-content" class="container">
+        <div>
+            <h2>Our Menu</h2>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div id="column1">
-            <h2>Chicken</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam officia autem, excepturi necessitatibus alias illo quae, iste nisi similique repellendus, qui dicta nam eius molestiae dolorum! Dicta iure deleniti nemo, accusantium aspernatur a voluptas, repellendus quo impedit, dolorum labore obcaecati voluptate, praesentium itaque harum. Reiciendis, perspiciatis incidunt earum commodi iure reprehenderit animi facilis inventore quaerat porro, itaque cupiditate sint nobis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos suscipit error neque! Suscipit voluptatibus labore eveniet non soluta natus et quod itaque, praesentium ipsam cumque. Reiciendis vitae fuga facere excepturi corrupti quibusdam minima, sint aut, aperiam voluptates maxime est ratione officiis autem architecto numquam omnis praesentium nam ad iste delectus. A dignissimos libero dolorem sequi, eos officiis nihil ex vero. <a href="#top_heading"> Back to top</a></p>
-          </div>
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="chicken-tile">
+                    <a id="chicken-categories">
+                        <div><span>Chicken</span></div>
+                    </a>
+                    <p>Dalia is a Syrian-German food author, presenter and entrepreneur. A culinary nomad born in London, raised in Paris and having lived many years in NYC, Dalia moved to Beirut when she founded Kitsch Bakery & Café. Dalia currently resides in Dubai and is a prominent culinary personality, contributing to leading food magazines, acting as Harper's Bazaar Arabia's food editor and appearing on major TV channels. Dalia's debut cookbook "Food, Love and Life from Dalia's Kitchen", topped charts at bookstores across the Middle East, such as Virgin Megastore and KinokuniyaBookworld. <br>(End of Chicken section)
+                        <a href="#chicken-categories">backto top</a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="beef-tile">
+                    <a id="beef-category">
+                        <div><span>Beef</span></div>
+                    </a>
+                    <p>Dalia is a Syrian-German food author, presenter and entrepreneur. A culinary nomad born in London, raised in Paris and having lived many years in NYC, Dalia moved to Beirut when she founded Kitsch Bakery & Café. Dalia currently resides in Dubai and is a prominent culinary personality, contributing to leading food magazines, acting as Harper's Bazaar Arabia's food editor and appearing on major TV channels. Dalia's debut cookbook "Food, Love and Life from Dalia's Kitchen", topped charts at bookstores across the Middle East, such as Virgin Megastore and KinokuniyaBookworld. <br> (End of Beef section)
+                        <a href="#beef-category">backto top</a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div id="sushi-tile">
+                    <a id="sushi-category">
+                        <div><span>Sushi</span></div>
+                    </a>
+                    <p>Dalia is a Syrian-German food author, presenter and entrepreneur. A culinary nomad born in London, raised in Paris and having lived many years in NYC, Dalia moved to Beirut when she founded Kitsch Bakery & Café. Dalia currently resides in Dubai and is a prominent culinary personality, contributing to leading food magazines, acting as Harper's Bazaar Arabia's food editor and appearing on major TV channels. Dalia's debut cookbook "Food, Love and Life from Dalia's Kitchen", topped charts at bookstores across the Middle East, such as Virgin Megastore and KinokuniyaBookworld. <br> (End of Sushi section)
+                        <a href="#sushi-category">backto top</a>
+                    </p>
+                </div>
+
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-        <div id="column2">
-            <h2>Beef</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sequi maxime autem, minus numquam veniam. Aut est harum tenetur, eligendi quod ducimus voluptate quaerat quasi recusandae aperiam, ea saepe repudiandae ipsum ipsam, provident, iste amet libero dolores! Quos placeat possimus numquam quia magnam alias quis excepturi nobis. Excepturi deleniti expedita perspiciatis, dolor! Alias voluptatum repudiandae temporibus, architecto cupiditate quos autem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos suscipit error neque! Suscipit voluptatibus labore eveniet non soluta natus et quod itaque, praesentium ipsam cumque. Reiciendis vitae fuga facere excepturi corrupti quibusdam minima, sint aut, aperiam voluptates maxime est ratione officiis autem architecto numquam omnis praesentium nam ad iste delectus. A dignissimos libero dolorem sequi, eos officiis nihil ex vero. <a href="#top_heading"> Back to top</a></p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div id="column3">
-            <h2>Sushi</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sequi maxime autem, minus numquam veniam. Aut est harum tenetur, eligendi quod ducimus voluptate quaerat quasi recusandae aperiam, ea saepe repudiandae ipsum ipsam, provident, iste amet libero dolores! Quos placeat possimus numquam quia magnam alias quis excepturi nobis. Excepturi deleniti expedita perspiciatis, dolor! Alias voluptatum repudiandae temporibus, architecto cupiditate quos autem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos suscipit error neque! Suscipit voluptatibus labore eveniet non soluta natus et quod itaque, praesentium ipsam cumque. Reiciendis vitae fuga facere excepturi corrupti quibusdam minima, sint aut, aperiam voluptates maxime est ratione officiis autem architecto numquam omnis praesentium nam ad iste delectus. A dignissimos libero dolorem sequi, eos officiis nihil ex vero. <a href="#top_heading"> Back to top</a></p>
-          </div>
-        </div>
-      </div>
     </div>
 
-  <script src="js/jquery-slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script> 
-  </body>
+
+
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
