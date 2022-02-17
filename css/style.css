@@ -37,7 +37,7 @@ h2{
     margin-bottom: 0;
 }
 div.section{
-    background-color: darkred;
+    background-color: darkblue;
     text-decoration-color: white;
     border: #000000 solid 2px;
     width: 90%;
@@ -46,7 +46,7 @@ div.section{
 .section-head h2{
     font-weight: normal;
     text-decloration-color: black;
-    background-color: darkred;
+    background-color: darkblue;
     align-content: center;
     position: relative;
     font-size: 25px;
@@ -67,7 +67,7 @@ div.section-body{
     text-decoration-color: white;
 }
 .navbar{
-    background-color: darkred;
+    background-color: darkblue;
     margin: 0px;
     padding: 0px;
     font-family: cursive;
