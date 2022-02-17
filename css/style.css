@@ -72,13 +72,13 @@ div.section-body{
 }
 #collapsable-nav{
     background-color: white;
-    text-align: center;
+    text-align: left;
     border: solid 2px black;
     font-size: 1.5em;
 }
 .collapse li{
     width: 100%;
-    text-align: center;
+    text-align: left;
     border-bottom: solid 2px black;
 }
 .navbar-toggler{
