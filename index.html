@@ -1,116 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-   
-
-    <title>Assignment Solution for Module 3</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Solution for Module 2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <div class="navbar-brand">
-                        <a href="index.html">
-                            <h1>Food,LLC</h1>
-                        </a>
-                    </div>
-
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#collapsable-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                </div>
-                <!-- .collapse .navbar-collapse -->
-
-                <div id="collapsable-nav" class="collapse navbar-collapse">
-                    <ul id="nav-list" class="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
-                        <li>
-                            <a href="#chicken-categories">
-                                <br class="hidden-xs"> Chicken</a>
-
-                        </li>
-                        <li id="line-hr">
-                            <a href="#beef-category">
-                                <br class="hidden-xs"> Beef</a>
-                        </li>
-                        <li>
-                            <a href="#sushi-category">
-                                <br class="hidden-xs"> Sushi</a>
-                        </li>
-
-                    </ul>
-                    <!-- #nav-list -->
-                </div>
-                <!-- .collapse .navbar-collapse -->
-
+        <nav class="navbar navbar-light bg-medium">
+            <a class="navbar-brand" href="#"><h1>Food, LLC</h1></a>
+            <div class="visible-xs">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#s1"><span class="hidden-xs">Chicken</span></a>
+                    </li>
+                    <li>
+                        <a href="#s2"><span class="hidden-xs">Beef</span></a>
+                    </li>
+                    <li>
+                        <a href="#s3"><span class="hidden-xs">Sushi</span></a>
+                    </li>
+                </ul>    
             </div>
         </nav>
-
     </header>
 
-    <!-- MAIN MENU  -->
-    <div id="main-content" class="container">
-        <div>
-            <h2>Our Menu</h2>
-        </div>
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div id="chicken-tile">
-                    <a id="chicken-categories">
-                        <div><span>Chicken</span></div>
-                    </a>
-                    <p>Dalia is a Syrian-German food author, presenter and entrepreneur. A culinary nomad born in London, raised in Paris and having lived many years in NYC, Dalia moved to Beirut when she founded Kitsch Bakery & Café. Dalia currently resides in Dubai and is a prominent culinary personality, contributing to leading food magazines, acting as Harper's Bazaar Arabia's food editor and appearing on major TV channels. Dalia's debut cookbook "Food, Love and Life from Dalia's Kitchen", topped charts at bookstores across the Middle East, such as Virgin Megastore and KinokuniyaBookworld. <br>(End of Chicken section)
-                        <a href="#chicken-categories">backto top</a>
-                    </p>
-                </div>
-
+    <h2 class="head">Our Menu</h2>
+    
+    <div id="s1" class="col-lg-4 col-md-6 col-sm-12">
+        <div class="section">
+            <div class="section-head"    style="background-color: darksalmon;">
+                <h2>Chicken</h2>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div id="beef-tile">
-                    <a id="beef-category">
-                        <div><span>Beef</span></div>
-                    </a>
-                    <p>Dalia is a Syrian-German food author, presenter and entrepreneur. A culinary nomad born in London, raised in Paris and having lived many years in NYC, Dalia moved to Beirut when she founded Kitsch Bakery & Café. Dalia currently resides in Dubai and is a prominent culinary personality, contributing to leading food magazines, acting as Harper's Bazaar Arabia's food editor and appearing on major TV channels. Dalia's debut cookbook "Food, Love and Life from Dalia's Kitchen", topped charts at bookstores across the Middle East, such as Virgin Megastore and KinokuniyaBookworld. <br> (End of Beef section)
-                        <a href="#beef-category">backto top</a>
-                    </p>
-                </div>
-
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <div id="sushi-tile">
-                    <a id="sushi-category">
-                        <div><span>Sushi</span></div>
-                    </a>
-                    <p>Dalia is a Syrian-German food author, presenter and entrepreneur. A culinary nomad born in London, raised in Paris and having lived many years in NYC, Dalia moved to Beirut when she founded Kitsch Bakery & Café. Dalia currently resides in Dubai and is a prominent culinary personality, contributing to leading food magazines, acting as Harper's Bazaar Arabia's food editor and appearing on major TV channels. Dalia's debut cookbook "Food, Love and Life from Dalia's Kitchen", topped charts at bookstores across the Middle East, such as Virgin Megastore and KinokuniyaBookworld. <br> (End of Sushi section)
-                        <a href="#sushi-category">backto top</a>
-                    </p>
-                </div>
-
+            <div class="section-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit eget libero at malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula elementum blandit. Pellentesque egestas iaculis pharetra. Praesent condimentum, massa quis aliquet consectetur, eros velit interdum ipsum, ut tincidunt nisl odio id mi</p>
             </div>
         </div>
     </div>
-
-
-
-
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    
+    <div id="s2" class="col-lg-4 col-md-6 col-sm-12">
+        <div class="section">
+            <div class="section-head"    style="background-color: firebrick;">
+                <h2 style="color: #fff;">Beef</h2>
+            </div>
+            <div class="section-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit eget libero at malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula elementum blandit. Pellentesque egestas iaculis pharetra. Praesent condimentum, massa quis aliquet consectetur, eros velit interdum ipsum, ut tincidunt nisl odio id mi</p>
+            </div>
+        </div>
+    </div>    
+    
+    <div id="s3" class="col-lg-4 col-md-12 col-sm-12">
+        <div class="section">
+            <div class="section-head"    style="background-color: khaki;">
+                <h2>Sushi</h2>
+            </div>
+            <div class="section-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit eget libero at malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula elementum blandit. Pellentesque egestas iaculis pharetra. Praesent condimentum, massa quis aliquet consectetur, eros velit interdum ipsum, ut tincidunt nisl odio id mi</p>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
