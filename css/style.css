@@ -12,7 +12,7 @@ body{
 h1{
     font-weight: bold;
     text-decoration-color: black;
-    background-color: white;
+    background-color: lightblue;
     align: center;
     position: center;
     font-size: 175%;
@@ -152,10 +152,3 @@ div.section-body{
   color: blue;
   text-decoration: underline;
   }
-
-.section-head<h2 {
-    font-size:20px ;
-    text-decoration-color: white;
-    position: relative;
-    align: center;
-    }
