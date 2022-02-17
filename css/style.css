@@ -125,4 +125,23 @@ div.section-body{
     text-decoration-color: white;
 }
 
+/***Link***/
+#href a:link {
+  color: blue;
+  text-decoration: underline; 
+}
 
+#href a:vistited {
+  color: blue;
+  text-decoration: underline; 
+}
+
+ #href a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#href a:active {
+  color: blue;
+  text-decoration: underline;
+  }
