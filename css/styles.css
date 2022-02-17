@@ -71,6 +71,16 @@
     list-style-type: none;
 }  
 
+.navbar-default {padding: 20px null; position: fixed, null 0px 0px 0px
+  transition: transform .5s $ease-in-out-quint
+  }  
+
+.nav.hidden {transform: translateY100%
+}  
+
+
+
+
 /***Link***/
 #href a:link {
   color: blue;
